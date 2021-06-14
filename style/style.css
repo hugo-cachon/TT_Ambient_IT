@@ -1,0 +1,66 @@
+/* General */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.formation-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2em 20%;
+}
+
+img {
+    height: 4em;
+    width: auto;
+}
+
+/* Header */
+
+header {
+    padding: 1em;
+    color: white;
+    text-align: center;
+    background-color: rgb(77, 75, 185);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    box-shadow: 0px 5px 5px rgba(85, 85, 85, 0.637);
+    ;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 1em;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 1em;
+}
+
+/* Elements tableau */
+th {
+    width: 8em;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/*Lien */
+a {
+    text-decoration: none;
+    color: black;
+    transition: .1s ease;
+}
+
+a:hover {
+    background-color: rgba(77, 75, 185, 0.2);
+}
